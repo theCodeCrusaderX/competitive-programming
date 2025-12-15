@@ -1,0 +1,1 @@
+{"name":"Local: Palindromic_Twist","url":"z:\\Compitative Programming\\Palindromic_Twist.cpp","tests":[{"id":1765588011444,"input":"5\n6\nabccba\n2\ncf\n4\nadfa\n8\nabaazaba\n2\nml","output":"YES\nNO\nYES\nNO\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"z:\\Compitative Programming\\Palindromic_Twist.cpp","group":"local","local":true}
