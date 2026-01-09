@@ -6,14 +6,17 @@ vector<bool> sieve(int n) {
 
     //as we know 0 and 1 are not prime num
     primes[0] = false;
-    primes[1] = false;
 
     for(int i=2; i<=n; i++) {
+        if(n%i == 0) {
+            continue;
+        }
         if(primes[i]) {
-            for(int j=i*i; j<=n; j+=i) {
+            for(int j=i; j<=n; j+=i) {
                 primes[j] = false;
             }
         }
+
     }
 
     return primes;
@@ -27,9 +30,7 @@ int main() {
 
     for(int i=0; i<=n; i++){
         if(primes[i]) {
-            cout << i << " is prime number\n";
-        }else {
-            cout << i << " is not prime number\n";
+            cout << i << " are factor of given number\n";
         }
     }
     return 0;

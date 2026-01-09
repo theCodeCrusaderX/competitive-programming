@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
 int factorsUsingSquareRootOfTimeComplexity(int n) {   // O(sqrt(n))
 
     int count = 0;
@@ -18,7 +17,6 @@ int factorsUsingSquareRootOfTimeComplexity(int n) {   // O(sqrt(n))
     cout << "\n";
     return count;
 }
-
 
 int factorsUsingLinearTimeComplexity(int n) {      // O(n)
 
